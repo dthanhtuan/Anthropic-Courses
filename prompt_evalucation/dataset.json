@@ -1,14 +1,17 @@
 [
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using regex",
-    "format": "regex"
+    "task": "Parse an AWS CloudWatch Logs Insights query result and extract the count of errors by service name",
+    "format": "python",
+    "solution_criteria": "Function should accept a list of log records, filter for error-level entries, group by service name field, and return a dictionary with service names as keys and error counts as values"
   },
   {
-    "task": "Create a Python function that validates if a given string is a valid AWS S3 bucket name",
-    "format": "python"
+    "task": "Create a CloudFormation template snippet that defines an S3 bucket with versioning enabled and public access blocked",
+    "format": "json",
+    "solution_criteria": "Valid JSON that includes S3 bucket resource with VersioningConfiguration and PublicAccessBlockConfiguration properties properly configured"
   },
   {
-    "task": "Generate a JSON object representing an AWS IAM policy that allows read-only access to a specific S3 bucket",
-    "format": "json"
+    "task": "Write a regex pattern to validate and extract AWS IAM role ARNs from a block of text",
+    "format": "regex",
+    "solution_criteria": "Pattern should match valid IAM role ARNs in the format 'arn:aws:iam::account-id:role/role-name', capture the account ID and role name separately, and reject invalid formats"
   }
 ]
