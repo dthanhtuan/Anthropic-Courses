@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using regex",
+    "format": "regex"
+  },
+  {
+    "task": "Create a Python function that validates if a given string is a valid AWS S3 bucket name",
+    "format": "python"
+  },
+  {
+    "task": "Generate a JSON object representing an AWS IAM policy that allows read-only access to a specific S3 bucket",
+    "format": "json"
+  }
+]
